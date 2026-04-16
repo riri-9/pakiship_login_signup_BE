@@ -1,0 +1,14 @@
+{
+  "name": "garnetbe-backup-main-workspace",
+  "private": true,
+  "scripts": {
+    "setup": "npm --prefix ./garnetbe-backup-main install",
+    "postinstall": "npm --prefix ./garnetbe-backup-main install",
+    "start": "npm --prefix ./garnetbe-backup-main run start",
+    "start:dev": "npm --prefix ./garnetbe-backup-main run start:dev",
+    "start:prod": "npm --prefix ./garnetbe-backup-main run start:prod",
+    "build": "npm --prefix ./garnetbe-backup-main run build",
+    "typecheck": "npm --prefix ./garnetbe-backup-main run typecheck",
+    "test": "npm --prefix ./garnetbe-backup-main run test"
+  }
+}

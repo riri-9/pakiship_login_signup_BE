@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="11.865">
+  <testsuite name="AuthService" errors="0" failures="0" skipped="0" timestamp="2026-04-16T14:44:35" time="10.025" tests="6">
+    <testcase classname="AuthService signs up a new user" name="AuthService signs up a new user" time="0.049">
+    </testcase>
+    <testcase classname="AuthService rejects signup when email already exists" name="AuthService rejects signup when email already exists" time="0.007">
+    </testcase>
+    <testcase classname="AuthService logs in with a mobile number by resolving the account email first" name="AuthService logs in with a mobile number by resolving the account email first" time="0.01">
+    </testcase>
+    <testcase classname="AuthService rejects invalid credentials" name="AuthService rejects invalid credentials" time="0.007">
+    </testcase>
+    <testcase classname="AuthService requests a password reset email" name="AuthService requests a password reset email" time="0.005">
+    </testcase>
+    <testcase classname="AuthService still succeeds when profile upsert fails" name="AuthService still succeeds when profile upsert fails" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>
